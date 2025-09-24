@@ -35,7 +35,7 @@ To overcome these limitations, we introduce GROMS, a novel framework for real-ti
 
 ## Datasets
 
-NUP DroneMap – Publicly available at [link]. Thanks to Map2DFusion for open-sourcing the UAV imagery.
+NUP DroneMap – Publicly available at [link]. Thanks to [Map2DFusion](https://github.com/zdzhaoyong/Map2DFusion) for open-sourcing the UAV imagery.
 
 XD-Lab DroneMap – Available upon request: yaofushan123@163.com
 
