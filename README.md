@@ -2,3 +2,5 @@
 ***
 Unmanned Aerial Vehicles (UAVs) play an increasingly vital role in civilian and military applications, where timely and accurate mapping is essential. However, conventional mapping pipelines typically depend on GPS, IMU, or computationally intensive Structure-from-Motion (SfM) techniques, limiting their applicability for real-time use in GPS-denied environments.
 To overcome these limitations, we introduce GROMS, a novel framework for real-time orthophoto generation from UAV imagery without requiring GPS or IMU data. GROMS integrates UAV–satellite image alignment, terrain-constrained monocular SLAM, and an efficient orthophoto generation strategy, enabling scalable, accurate, and low-latency mapping in complex, GPS-free scenarios.
+![UAV_Orthophoto](https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/uav_real-time_orthophoto.png)
+
