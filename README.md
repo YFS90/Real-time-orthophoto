@@ -35,8 +35,6 @@ To overcome these limitations, we introduce GROMS, a novel framework for real-ti
 
 ## Datasets📦
 
-链接:  提取码: m33s
-
 NUP DroneMap – Publicly available at [link](https://pan.baidu.com/s/1Lx0UYDlX08CFI6uA1b19EQ), extraction code: m33s. The dataset includes UAV-captured images along with corresponding satellite imagery of the same areas. Thanks to [Map2DFusion](https://github.com/zdzhaoyong/Map2DFusion) for open-sourcing the UAV imagery.
 
 XD-Lab DroneMap – Available upon request: yaofushan123@163.com
