@@ -12,7 +12,7 @@ To overcome these limitations, we introduce GROMS, a novel framework for real-ti
 
 <table>
       <tr>
-		<td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_f.png" ></td>
+		<td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_z.png" ></td>
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_f.png" ></td>
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_k.png" ></td>
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_o.png" ></td> 
@@ -20,17 +20,17 @@ To overcome these limitations, we introduce GROMS, a novel framework for real-ti
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_s.png" ></td> 
       </tr >
       <tr >
-		<td><a href="https://www.bilibili.com/video/BV1kxeDeoE8S/">bilibili</a></td>
+		<td><a href="https://www.bilibili.com/video/BV1Hbnhz4E6k/">bilibili</a></td>
 	    <td><a href="https://www.youtube.com/watch?v=fPJIgGNBVmI">YouTube</a></td>
-	    <td><a href="https://www.bilibili.com/video/BV1kxeDeoE8S/">bilibili</a></td>
+	    <td><a href="https://www.bilibili.com/video/BV1w4nhzZEUb/">bilibili</a></td>
 	    <td><a href="https://www.youtube.com/watch?v=fPJIgGNBVmI">YouTube</a></td>
-        <td><a href="https://www.bilibili.com/video/BV1yHeDe8Ei5/">bilibili</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1wbnhz4EJL/">bilibili</a></td>
 	    <td><a href="https://www.youtube.com/watch?v=5PFNv3vl4oA">YouTube</a></td>
-        <td><a href="https://www.bilibili.com/video/BV1yHeDe8ESg/">bilibili</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1AsnhzFE93/">bilibili</a></td>
 	    <td><a href="https://www.youtube.com/watch?v=xGRafWdadu8">YouTube</a></td>
-        <td><a href="https://www.bilibili.com/video/BV1E4421S7zN/">bilibili</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1A4nhzZEAX/">bilibili</a></td>
 	    <td><a href="https://www.youtube.com/watch?v=WIEuoXP8b20">YouTube</a></td>
-        <td><a href="https://www.bilibili.com/video/BV1j4421S7aA/">bilibili</a></td>
+        <td><a href="https://www.bilibili.com/video/BV1w4nhzZEeP/">bilibili</a></td>
 	    <td><a href="https://www.youtube.com/watch?v=y4Upp6I6Mxk">YouTube</a></td>
 	</tr>     
 </table>
