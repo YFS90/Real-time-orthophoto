@@ -16,7 +16,7 @@ To overcome these limitations, we introduce GROMS, a novel framework for real-ti
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_f.png" ></td>
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_k.png" ></td>
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_o.png" ></td> 
-        <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_p.png" ></td>
+        <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_q.png" ></td>
 	    <td colspan="2"><img src="https://github.com/YFS90/Real-time-orthophoto/blob/main/Img/Set_s.png" ></td> 
       </tr >
       <tr >
