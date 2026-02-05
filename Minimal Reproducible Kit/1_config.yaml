@@ -1,0 +1,92 @@
+dataset: # Data used in experiments
+
+  video_source: testdata/self_data/video/video_visible/002_WBT_H20T.MP4
+  satellite_block_img_path: testdata/self_data/satellite_img/satellite_block_img_wbt_sat/
+  satellite_img: testdata/self_data/satellite_img/WBT_CGCS200_GK126_0.5_dom_sat.tif
+
+  dem_source2: testdata/self_data/dem/WBT_ALOS_15.tif
+  dem_pointcloud: testdata/self_data/dem/WBT30.txt
+
+  camera_paras_filename: testdata/self_data/camera/calibration_h20t-10-w.yaml
+
+  ground_truth: testdata/self_data/video/video_visible/002_WBT_CGCS2000_GK126.txt
+
+method_parameters:
+
+  # Positioning method
+  SLAM_location: True
+
+  # DEM elevation interpolation method
+  linear_interpolation: True
+
+  # RANSAC and threshold settings on the matching results
+  img_match_ransac: True
+  ransac_residual_threshold: 10
+
+  start_progress_frame_num: 0
+
+  # Zoom ratio, satellite image hierarchy, and search window size
+  scale: 0.5 
+  init_level: 15  
+  init_search_win: 7 #(R_kdilation, 5~13 - recommended)
+
+  # Optimize threshold
+  culling_err_thres: 0.02
+  slide_win1: 5
+  slide_win2: 10
+  old_points: 5
+  slide_opti_interval: 10
+
+  using_frame_match: True   
+  frame_match_thres: 0.3
+
+  # Image block parameters
+  block_size: 128
+  overlap_rate: 0.0          
+  check_overlap: True
+  
+  pre_rotation: True
+
+  display_2d_gui: True
+  display_3d_gui: True       
+  display_otrho: True
+  display_traj: True
+
+
+# SuperPoint/MINIMA
+sp_detector:
+  nms_radius: 4
+  detection_threshold: 0.005 # 0.0015, 0.005
+  max_num_keypoints:   2000
+
+MINIMA_matcher:
+  flash: False              # enable FlashAttention
+  mp: False                 # enable mixed precision
+  filter_threshold: 0.1     # 0.1, match threshold
+  width_confidence: 0.99    # for point pruning, -1 is no point pruning, recommend: 0.99
+  depth_confidence: 0.95    # for early stopping, -1 is no early stopping, recommend: 0.95
+
+# Orthophoto generation parameters
+ortho:
+  generate_ortho: True
+  ortho_display_resize: 2
+  pyramid_levels: 4
+  ortho_patch_size: 10
+  ortho_interval: 3
+  dem_interp: cubic_spline  # Interpolation type for resampling DEM
+  interp: lanczos           # Interpolation method to use for warping source to orthorectified image
+  build_ovw: True           # Build internal overviews
+  overwrite: True           # Overwrite ortho raster if it exists
+  write_mask: False         # Write an internal mask band (True), can help remove jpeg noise in nodata area (False - recommended)
+  driver: GTiff             # Format of ortho raster - see www.gdal.org/formats_list.html (None = same format as source image)
+  dtype:                    # Data type of ortho raster (e.g. uint8, uint16, float32 etc)  (None = same type as source image, recommended)
+  resolution: [0.25, 0.25]  # Output pixel size [x, y] in m
+  tile_size: [512, 512]     # Tile/block [x, y] size in pixels  ([512, 512] recommended)
+  compress: lzw             # GeoTIFF compress type (deflate, jpeg, jpeg2000, lzw, zstd, none)
+  interleave: band          # Interleave by 'pixel' or 'band' (pixel, band)
+  photometric:              # Photometric interpretation, see https://gdal.org/drivers/raster/gtiff.html
+                            # --- for options (None = same format as source image, recommended)
+  nodata: 0
+
+
+
